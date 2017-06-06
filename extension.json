@@ -1,0 +1,41 @@
+{
+	"name": "Patreon",
+	"version": "1.0.0",
+	"author": [
+		"Shane A. '^BuGs^' Froebel"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Patreon",
+	"descriptionmsg": "patreon_description",
+	"license-name": "MIT",
+	"type": "",
+	"callback": "PatreonHooks::onExtension",
+	"MessagesDirs": {
+		"Patreon": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"PatreonMagic": "Patreon.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+
+	},
+	"APIModules": {
+
+    },
+	"ResourceModules": {
+
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Patreon"
+	},
+	"config": {
+
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"PatreonHooks::onParserFirstCallInit"
+		]
+	}
+}
