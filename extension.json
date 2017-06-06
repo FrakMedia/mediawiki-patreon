@@ -1,14 +1,19 @@
 {
 	"name": "Patreon",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"author": [
 		"Shane A. '^BuGs^' Froebel"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:Patreon",
+	"url": "https://github.com/FrakMedia/mediawiki-patreon",
 	"descriptionmsg": "patreon_description",
 	"license-name": "MIT",
 	"type": "",
-	"callback": "PatreonHooks::onExtension",
+	"ExtensionFunctions": [
+		"PatreonHooks::initialize"
+	],
+	"SpecialPages": {
+		"PatreonHooks": "PatreonHooks"
+	},
 	"MessagesDirs": {
 		"Patreon": [
 			"i18n"
@@ -31,10 +36,5 @@
 		"remoteExtPath": "Patreon"
 	},
 	"config": {
-	},
-	"Hooks": {
-		"ParserFirstCallInit": [
-			"PatreonHooks::onParserFirstCallInit"
-		]
 	}
 }
