@@ -18,20 +18,19 @@
 		"PatreonMagic": "Patreon.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-
+		"PatreonHooks": "Patreon.hooks.php",
+		"PatreonAPI": "classes/Patreon/API.php",
+		"PatreonOAuth": "classes/Patreon/OAuth.php"
 	},
 	"APIModules": {
-
-    },
+	},
 	"ResourceModules": {
-
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
 		"remoteExtPath": "Patreon"
 	},
 	"config": {
-
 	},
 	"Hooks": {
 		"ParserFirstCallInit": [
