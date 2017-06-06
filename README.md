@@ -34,8 +34,7 @@ Downloadable archive packages for numbered releases will also be available from 
 In your LocalSettings.php please insert your API key settings for your Patreon campaign at the top
 
 ```
-define('PATREON_CAMPAIGNID', XXXXXXXXXX);
-define('PATREON_KEY', XXXXXXXXXX);
+
 ```
 
 Also include...
