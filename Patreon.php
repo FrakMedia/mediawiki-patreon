@@ -6,7 +6,7 @@
  *
  * @license          MIT
  * @package          Patreon
- * @link               https://github.com/FrakMedia/mediawiki-patreon
+ * @link             https://github.com/FrakMedia/mediawiki-patreon
  *
  **/
 

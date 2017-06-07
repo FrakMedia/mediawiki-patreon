@@ -12,7 +12,7 @@
 		"PatreonHooks::initialize"
 	],
 	"SpecialPages": {
-		"Patreon": "Patreon"
+		"Patreon": "PatreonPage"
 	},
 	"MessagesDirs": {
 		"Patreon": [
@@ -20,10 +20,11 @@
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"PatreonMagic": "Patreon.i18n.magic.php"
+		"PatreonMagic": "modules/Patreon.i18n.magic.php"
 	},
 	"AutoloadClasses": {
-		"PatreonHooks": "Patreon.hooks.php",
+		"PatreonSpecialPage": "modules/Patreon.specialpage.php",
+		"PatreonHooks": "modules/Patreon.hooks.php",
 		"PatreonAPI": "classes/Patreon/API.php",
 		"PatreonOAuth": "classes/Patreon/OAuth.php"
 	},
@@ -33,7 +34,12 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "Patreon"
+		"remoteExtPath": ""
+	},
+	"Hooks": {
+		"UserLoginComplete": [
+			"PatreonHooks::hookUserLogonComplete"
+		]
 	},
 	"config": {
 	}

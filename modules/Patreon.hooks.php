@@ -18,4 +18,14 @@ class PatreonHooks
 		global $wgHooks;
 	}
 
+	/**
+	 * @param $user
+	 * @param $inject_html
+	 * @param $direct
+	 */
+	public static function hookUserLogonComplete(&$user, &$inject_html, $direct)
+	{
+		return true;
+	}
+
 }
