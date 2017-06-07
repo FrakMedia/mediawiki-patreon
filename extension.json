@@ -12,7 +12,7 @@
 		"PatreonHooks::initialize"
 	],
 	"SpecialPages": {
-		"PatreonHooks": "PatreonHooks"
+		"Patreon": "Patreon"
 	},
 	"MessagesDirs": {
 		"Patreon": [
