@@ -9,10 +9,7 @@
 	"license-name": "MIT",
 	"type": "other",
 	"AutoloadClasses": {
-		"PatreonSpecialPage": "PatreonSpecialPage.php",
-		"PatreonHooks": "Patreon.hooks.php"
-	},
-	"ConfigRegistry": {
+		"PatreonSpecialPage": "PatreonSpecialPage.php"
 	},
 	"ExtensionFunctions": [
 		"PatreonHooks::initialize"
@@ -20,16 +17,10 @@
 	"SpecialPages": {
 		"Patreon": "PatreonPage"
 	},
-	"APIModules": {
-	},
 	"MessagesDirs": {
 		"Patreon": [
 			"i18n"
 		]
-	},
-	"ExtensionMessagesFiles": {
-	},
-	"ResourceModules": {
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
@@ -39,8 +30,6 @@
 		"UserLoginComplete": [
 			"PatreonHooks::hookUserLogonComplete"
 		]
-	},
-	"config": {
 	},
 	"manifest_version": 1
 }
