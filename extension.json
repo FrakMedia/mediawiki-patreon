@@ -20,7 +20,6 @@
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"PatreonMagic": "modules/Patreon.i18n.magic.php"
 	},
 	"AutoloadClasses": {
 		"PatreonSpecialPage": "modules/Patreon.specialpage.php",
