@@ -9,8 +9,8 @@
 	"license-name": "MIT",
 	"type": "other",
 	"AutoloadClasses": {
-		"BoilerPlateHooks": "Patreon.hooks.php",
-		"SpecialHelloWorld": "PatreonSpecialPage.php"
+		"PatreonHooks": "Patreon.hooks.php",
+		"PatreonPage": "PatreonSpecialPage.php"
 	},
 	"config": {
 		"PatreonEnabled": true
