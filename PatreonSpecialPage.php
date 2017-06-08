@@ -1,12 +1,13 @@
 <?php
-
 /**
+ * Special Page for Patreon
  * @file
  * @ingroup Extensions
  * @author Shane A. Froebel
  * @copyright ©2017
  * @license MIT
  */
+
 class PatreonPage extends SpecialPage
 {
 	/**
@@ -31,3 +32,5 @@ class PatreonPage extends SpecialPage
 	}
 
 }
+
+?>

@@ -26,7 +26,7 @@
 	"ExtensionMessagesFiles": {
 	},
 	"AutoloadClasses": {
-		"PatreonSpecialPage": "Patreon.specialpage.php",
+		"PatreonSpecialPage": "PatreonSpecialPage.php",
 		"PatreonHooks": "Patreon.hooks.php"
 	},
 	"ResourceModules": {
