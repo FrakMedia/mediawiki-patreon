@@ -8,11 +8,15 @@
 	"descriptionmsg": "patreon_description",
 	"license-name": "MIT",
 	"type": "",
+	"ConfigRegistry": {
+	},
 	"ExtensionFunctions": [
 		"PatreonHooks::initialize"
 	],
 	"SpecialPages": {
 		"Patreon": "PatreonPage"
+	},
+	"APIModules": {
 	},
 	"MessagesDirs": {
 		"Patreon": [
@@ -24,8 +28,6 @@
 	"AutoloadClasses": {
 		"PatreonSpecialPage": "Patreon.specialpage.php",
 		"PatreonHooks": "Patreon.hooks.php"
-	},
-	"APIModules": {
 	},
 	"ResourceModules": {
 	},
@@ -39,5 +41,6 @@
 		]
 	},
 	"config": {
-	}
+	},
+	"manifest_version": 1
 }
