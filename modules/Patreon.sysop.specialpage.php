@@ -15,7 +15,7 @@ class PatreonPage extends SpecialPage
 	 */
 	function __construct()
 	{
-		parent::__construct('Patreon', 'sysop', true);
+		parent::__construct('Patreon Checking', 'sysop', true);
 	}
 
 	function execute($par)
