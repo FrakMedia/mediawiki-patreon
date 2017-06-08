@@ -9,8 +9,8 @@
 	"license-name": "MIT",
 	"type": "other",
 	"AutoloadClasses": {
-		"PatreonHooks": "Patreon.hooks.php",
-		"PatreonPage": "PatreonSpecialPage.php"
+		"PatreonHooks": "modules/Patreon.hooks.php",
+		"PatreonPage": "modules/Patreon.specialpage.php"
 	},
 	"config": {
 		"PatreonEnabled": true
