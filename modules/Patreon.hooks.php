@@ -1,12 +1,13 @@
 <?php
-
 /**
- * @file
+ * Patreon main file that does checking of the user and makes changes to the database as needed.
+ * @file Patreon.hooks.php
  * @ingroup Extensions
  * @author Shane A. Froebel
  * @copyright ©2017
  * @license MIT
  */
+
 class PatreonHooks
 {
 
