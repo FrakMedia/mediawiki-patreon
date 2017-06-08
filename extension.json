@@ -10,7 +10,9 @@
 	"type": "other",
 	"AutoloadClasses": {
 		"PatreonHooks": "modules/Patreon.hooks.php",
-		"PatreonPage": "modules/Patreon.specialpage.php"
+		"PatreonPage": "modules/Patreon.specialpage.php",
+		"PatreonAPI": "classes/Patreon/API.php",
+		"PatreonOAuth": "classes/Patreon/OAuth.php"
 	},
 	"config": {
 		"PatreonEnabled": true
