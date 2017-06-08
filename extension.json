@@ -23,9 +23,9 @@
 	},
 	"AutoloadClasses": {
 		"PatreonSpecialPage": "Patreon/modules/Patreon.specialpage.php",
-		"PatreonHooks": "Patreon/modules/Patreon.hooks.php",
-		"PatreonAPI": "Patreon/classes/Patreon/API.php",
-		"PatreonOAuth": "Patreon/classes/Patreon/OAuth.php"
+		"PatreonHooks": "modules/Patreon.hooks.php",
+		"PatreonAPI": "classes/Patreon/API.php",
+		"PatreonOAuth": "classes/Patreon/OAuth.php"
 	},
 	"APIModules": {
 	},
